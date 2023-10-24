@@ -14,6 +14,8 @@ VALUES ('Bob', 'Dylan', 82, 123, 'Duluth');
 insert into persons.PERSONS(name, surname, age, phone_number, city_of_living)
 VALUES ('Tom', 'Cruise', 61, 456, 'Syracuse');
 insert into persons.PERSONS(name, surname, age, phone_number, city_of_living)
-VALUES ('Grettir', 'Asmundson', 25, 789, 'Egilsstaðir')
+VALUES ('Grettir', 'Asmundson', 25, 789, 'Egilsstaðir');
+insert into persons.PERSONS(name, surname, age, phone_number, city_of_living)
+VALUES ('Ivan', 'Orlov', 22, 222, 'Moscow');
 
-
+select* from persons.PERSONS;
